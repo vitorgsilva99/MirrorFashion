@@ -1,2 +1,1 @@
-# sobre
-Página Sobre do projeto de Programação Web - SENAC
+Página Sobre e inicial do projeto de Programação Web - SENAC
