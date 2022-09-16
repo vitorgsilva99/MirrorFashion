@@ -1,62 +1,71 @@
-body{
-    font-family: "Arial", "Helvetica", sans-serif;
+.sacola {
+    background-image: url(../img/sacola.png);
+    background-repeat: no-repeat;
+    background-position: top right;
+    font-size: 14px;
+    padding-right: 35px;
+    padding-top: 8px;
+    text-align: right;
+    width: 140px;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
-p {
-  text-align: center; 
+.menu-opcoes ul li{
+    display: inline;
+    margin-left: 20px;
 }
-body{
-    border-width: 1px;
+.menu-opcoes a{
+    color: #003366;
 }
 body{
     color: #333333;
-    font-family: "Lucinda Sans Unicode",
-                 "Lucinda Grande", sans-serif;
-    margin-left: auto;
-    margin-right: auto;
-    width: 940px;
+    font-family: "Lucinda Sans Unicode","Lucinda Grande", sans-serif;
 }
-h1{
-    background-image: url(../img/sobre-background.jpg);
+.container{
+    margin: 0 auto;
+    width: 940px
 }
-p{
-   padding:10px;  
+header{
+    position: relative;
 }
-h2 {
-border-bottom: 2px solid #333333;
+.menu-opcoes{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
-p{
-    margin-top: 30px;
+.busca,
+.menu-departamentos{
+    background-color: #DCDCDC;
+    font-weight: bold;
+    text-transform:  uppercase;
+    margin-right: 10px;
+    width: 230px;
+    float: left;
 }
-h3{
-    background-color: #D8BFD8;
+
+.busca h2,
+.busca form,
+.menu-departamentos h2{
+    margin: 10px;
 }
-figure {
-    background-color: #F2EDED;
-    border: 1px solid #ccc;
-    text-align: center;
-    padding: 15px;
-    margin: 30px;
+.menu-departamentos li{
+    background-color: white;
+    margin-bottom: 1px;
+    padding: 5px 10px;
 }
-figcaption {
-    font-style: italic;
+.menu-departamentos a{
+    color: #333333;
+    text-decoration: none;
+}
+.busca input[type=search]{
+    width: 210px;
+}
+.menu-departamentos{
+    clear: left;
     margin-top: 10px;
+    padding-bottom: 10px;
 }
-#centro-distribuicao {
-    margin-left: auto;
-    margin-right: auto;
-    width: 550px;
-}
-#rodape {
-    color: #777;
-    margin: 30px 0;
-    padding: 30px 0;
-}
-#rodape img{
-    margin-right: 30px;
-    vertical-align: middle;
-    width: 94px;
-}
-#familia-pelho {
-    float: right;
-    margin: 0 0 10px 10px;
+.destaque{
+    margin-top: 10px;
 }
