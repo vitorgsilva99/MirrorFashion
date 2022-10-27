@@ -84,6 +84,8 @@ header {
     margin:  10px 0;
     padding: 10px;
     width: 445px;
+    border-radius: 4px;
+    box-shadow: inset 1px 1px 4px #999;
 }
 .painel li{
     display: inline-block;
@@ -97,6 +99,7 @@ header {
     font-weight: bold;
     text-transform: uppercase;
     margin-bottom: 10px;
+    text-shadow: 3px 3px 2px rgba(255, 255, 255, 0.8);
 }
 .painel a{
     color: #333;
@@ -107,10 +110,12 @@ header {
 .novidades{
     float: left;
     background-color: #F5DCDC;
+    background: linear-gradient(#F5DCDC, #BEBEF4);
 }
 .mais-vendidos{
     float: right;
     background-color: #DCDCF5;
+    background: linear-gradient(#DCDCF5, #F4BEBE);
 }
 footer {
     background-image: url(../img/fundo-rodape.png);
@@ -119,7 +124,6 @@ footer {
 }
 footer .container {
     position: relative;
-
 }
 .social {
     position: absolute;
@@ -162,4 +166,14 @@ footer .container {
 }
 .menu-departamentos li li a:before {
     content: '- ';
+}
+.busca{
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.painel li:hover{
+    background-color: rgba(255,255,255,0.8);
+    box-shadow: 0 0 5px #333;
+    transition: box-shadow 0.7s;
+    transform: scale(1.2) rotate(-5deg);
 }
